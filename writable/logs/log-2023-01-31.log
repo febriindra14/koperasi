@@ -1,0 +1,113 @@
+ERROR - 2023-01-31 05:16:50 --> mysqli_sql_exception: Unknown column 'debet' in 'where clause' in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/KeuanganController.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('debet')
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-31 05:16:50 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/KeuanganController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('debet')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 05:17:22 --> mysqli_sql_exception: Unknown column 'debet' in 'where clause' in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/KeuanganController.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('debet')
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-31 05:17:22 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/KeuanganController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('debet')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 05:37:03 --> mysqli_sql_exception: Column 'kategori' cannot be null in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/KeuanganController.php(79): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->updatemaster()
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 05:51:41 --> Cannot redeclare App\Controllers\Admin\KeuanganController::editmaster()
+in APPPATH/Controllers/Admin/KeuanganController.php on line 133.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-31 06:09:21 --> Invalid file: admin/tambah_transaksi.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_transaksi.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tambah_transaksi', [], true)
+ 3 APPPATH/Controllers/Admin/KeuanganController.php(115): view('admin/tambah_transaksi', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->addtransaksi()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:13:35 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/tambah_transaksi.php on line 27.
+ 1 APPPATH/Views/admin/tambah_transaksi.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/tambah_transaksi.php', 27, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/tambah_transaksi.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tambah_transaksi', [], true)
+ 5 APPPATH/Controllers/Admin/KeuanganController.php(115): view('admin/tambah_transaksi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->addtransaksi()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:18:36 --> number_format() expects parameter 1 to be float, string given
+in APPPATH/Views/admin/transaksi.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH/Views/admin/transaksi.php', 37, [...])
+ 2 APPPATH/Views/admin/transaksi.php(37): number_format('Backdrop', 2, ',', '/Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/transaksi.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 6 APPPATH/Controllers/Admin/KeuanganController.php(104): view('admin/transaksi', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:19:22 --> number_format() expects parameter 1 to be float, string given
+in APPPATH/Views/admin/transaksi.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH/Views/admin/transaksi.php', 37, [...])
+ 2 APPPATH/Views/admin/transaksi.php(37): number_format('Backdrop', 2, ',', '/Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/transaksi.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 6 APPPATH/Controllers/Admin/KeuanganController.php(104): view('admin/transaksi', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:20:19 --> Invalid file: admin/edit_transaksi.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_transaksi.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_transaksi', [], true)
+ 3 APPPATH/Controllers/Admin/KeuanganController.php(151): view('admin/edit_transaksi', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->edittransaksi('2')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:24:44 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/edit_transaksi.php on line 28.
+ 1 APPPATH/Views/admin/edit_transaksi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/edit_transaksi.php', 28, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_transaksi.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_transaksi', [], true)
+ 5 APPPATH/Controllers/Admin/KeuanganController.php(151): view('admin/edit_transaksi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->edittransaksi('2')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

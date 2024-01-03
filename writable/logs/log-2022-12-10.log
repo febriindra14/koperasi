@@ -1,0 +1,421 @@
+CRITICAL - 2022-12-10 02:28:15 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/DashboardController.php on line 15
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(15): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->cekredirect()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 02:50:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':24' at line 1 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SettingController.php(185): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->deleteRiwayatPembayaran('mts', '41')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-10 02:50:42 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SettingController.php on line 185.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->deleteRiwayatPembayaran('mts', '41')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 05:15:45 --> Call to a member function query() on null
+in APPPATH/Controllers/Admin/SantriController.php on line 389.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanPembayaran('MTs', '$1')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 05:35:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's.nama, s.pembayar as penerima, s.ref_jenjang_id  FROM santri_pembayaran sp, ...' at line 1 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*, sp...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*, sp...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*, sp...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Santri/DashboardController.php(124): CodeIgniter\Database\BaseConnection->query('SELECT sp.*, sp...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKwitansi('74')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-10 05:35:06 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 124.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKwitansi('74')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 06:08:07 --> Min/max width is undefined for table rows
+in FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableRow.php on line 80.
+ 1 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\TableRow->get_min_max_width()
+ 2 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 3 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(938): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 4 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\Block->get_min_max_content_width()
+ 5 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+ 6 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 7 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php(143): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 8 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\TableCell->get_min_max_content_width()
+ 9 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+10 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(729): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+11 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(604): Dompdf\Cellmap->calculate_column_widths()
+12 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(460): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\Table))
+13 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(331): Dompdf\FrameReflower\Table->get_min_max_width()
+14 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+15 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+16 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+17 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+18 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+19 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+20 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+21 FCPATH/vendor/dompdf/dompdf/src/Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+22 APPPATH/Controllers/Santri/DashboardController.php(149): Dompdf\Dompdf->render()
+23 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKwitansi('74')
+24 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+25 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+26 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 06:08:08 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes)
+in APPPATH/Views/errors/html/error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-10 06:08:19 --> Min/max width is undefined for table rows
+in FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableRow.php on line 80.
+ 1 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\TableRow->get_min_max_width()
+ 2 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 3 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(938): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 4 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\Block->get_min_max_content_width()
+ 5 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+ 6 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 7 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php(143): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 8 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\TableCell->get_min_max_content_width()
+ 9 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+10 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(729): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+11 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(604): Dompdf\Cellmap->calculate_column_widths()
+12 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(460): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\Table))
+13 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(331): Dompdf\FrameReflower\Table->get_min_max_width()
+14 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+15 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+16 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+17 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+18 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+19 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+20 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+21 FCPATH/vendor/dompdf/dompdf/src/Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+22 APPPATH/Controllers/Santri/DashboardController.php(149): Dompdf\Dompdf->render()
+23 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKwitansi('74')
+24 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+25 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+26 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 06:08:20 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes)
+in APPPATH/Views/errors/html/error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-10 06:09:08 --> Min/max width is undefined for table rows
+in FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableRow.php on line 80.
+ 1 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\TableRow->get_min_max_width()
+ 2 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 3 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(938): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 4 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\Block->get_min_max_content_width()
+ 5 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+ 6 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 7 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php(143): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 8 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\TableCell->get_min_max_content_width()
+ 9 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+10 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(729): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+11 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(604): Dompdf\Cellmap->calculate_column_widths()
+12 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(460): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\Table))
+13 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(331): Dompdf\FrameReflower\Table->get_min_max_width()
+14 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+15 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+16 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+17 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+18 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+19 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+20 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+21 FCPATH/vendor/dompdf/dompdf/src/Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+22 APPPATH/Controllers/Santri/DashboardController.php(149): Dompdf\Dompdf->render()
+23 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKwitansi('74')
+24 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+25 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+26 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 06:09:09 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes)
+in APPPATH/Views/errors/html/error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-10 06:12:00 --> Min/max width is undefined for table rows
+in FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableRow.php on line 80.
+ 1 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\TableRow->get_min_max_width()
+ 2 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 3 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(938): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 4 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\Block->get_min_max_content_width()
+ 5 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+ 6 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 7 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php(143): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 8 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\TableCell->get_min_max_content_width()
+ 9 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+10 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(729): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+11 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(604): Dompdf\Cellmap->calculate_column_widths()
+12 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(460): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\Table))
+13 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(331): Dompdf\FrameReflower\Table->get_min_max_width()
+14 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+15 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+16 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+17 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+18 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+19 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+20 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+21 FCPATH/vendor/dompdf/dompdf/src/Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+22 APPPATH/Controllers/Santri/DashboardController.php(149): Dompdf\Dompdf->render()
+23 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKwitansi('74')
+24 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+25 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+26 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 06:12:01 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes)
+in APPPATH/Views/errors/html/error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-10 06:12:16 --> Min/max width is undefined for table rows
+in FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableRow.php on line 80.
+ 1 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\TableRow->get_min_max_width()
+ 2 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 3 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(938): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 4 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\Block->get_min_max_content_width()
+ 5 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+ 6 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(420): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+ 7 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php(143): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_child_width()
+ 8 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(458): Dompdf\FrameReflower\TableCell->get_min_max_content_width()
+ 9 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(921): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+10 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(729): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+11 FCPATH/vendor/dompdf/dompdf/src/Cellmap.php(604): Dompdf\Cellmap->calculate_column_widths()
+12 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(460): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\Table))
+13 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Table.php(331): Dompdf\FrameReflower\Table->get_min_max_width()
+14 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+15 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+16 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+17 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+18 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+19 FCPATH/vendor/dompdf/dompdf/src/FrameReflower/Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+20 FCPATH/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+21 FCPATH/vendor/dompdf/dompdf/src/Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+22 APPPATH/Controllers/Santri/DashboardController.php(149): Dompdf\Dompdf->render()
+23 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKwitansi('74')
+24 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+25 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+26 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 06:12:16 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes)
+in APPPATH/Views/errors/html/error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-10 06:24:34 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/DashboardController.php on line 15
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(15): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->cekredirect()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 06:47:07 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/DashboardController.php on line 15
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(15): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->cekredirect()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 07:53:42 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:36:54 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:36:59 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:55:25 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:55:30 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:55:32 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:56:54 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 325
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(325): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:56:55 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:03:11 --> The route for "tahap-psikotes-mts" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tahap-psikotes-mts')
+ 2 APPPATH/Views/admin/layout/admin.php(68): url_to('tahap-psikotes-mts')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_MTs', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(357): view('admin/riwayat_pembayaran_MTs', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '3302255407110002')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:03:24 --> The route for "tahap-psikotes-mts" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tahap-psikotes-mts')
+ 2 APPPATH/Views/admin/layout/admin.php(68): url_to('tahap-psikotes-mts')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/pembayaran_MTs', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(332): view('admin/pembayaran_MTs', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:03:27 --> The route for "tahap-psikotes-mts" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tahap-psikotes-mts')
+ 2 APPPATH/Views/admin/layout/admin.php(68): url_to('tahap-psikotes-mts')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_MTs', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(357): view('admin/riwayat_pembayaran_MTs', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '3175045712101008')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:03:31 --> The route for "tahap-psikotes-mts" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tahap-psikotes-mts')
+ 2 APPPATH/Views/admin/layout/admin.php(68): url_to('tahap-psikotes-mts')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/pembayaran_MTs', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(332): view('admin/pembayaran_MTs', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:04:49 --> The route for "tahap-psikotes-mts" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tahap-psikotes-mts')
+ 2 APPPATH/Views/admin/layout/admin.php(68): url_to('tahap-psikotes-mts')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/pembayaran_MTs', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(332): view('admin/pembayaran_MTs', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:06:16 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:06:24 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:06:27 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:06:30 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:07:29 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:34:01 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:34:46 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MA')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:34:49 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MA')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:47:36 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 14:49:42 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:27:50 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 18:41:05 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MA')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

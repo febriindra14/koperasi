@@ -1,0 +1,67 @@
+CRITICAL - 2022-12-07 04:47:12 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 04:47:17 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 04:48:30 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 05:25:44 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `users` ...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SettingController.php(120): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->resetPassword('mts', '269')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-07 05:26:30 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `users` ...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SettingController.php(120): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->resetPassword('mts', '269')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-07 06:56:45 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/DashboardController.php on line 15
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(15): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->cekredirect()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-07 18:01:01 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}

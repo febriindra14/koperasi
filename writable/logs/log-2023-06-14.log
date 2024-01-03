@@ -1,0 +1,324 @@
+ERROR - 2023-06-14 07:02:01 --> mysqli_sql_exception: Table 'appkoperasi.peserta_qurban' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.nama, ...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.nama, ...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.nama, ...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\PesertaController.php(100): CodeIgniter\Database\BaseConnection->query('SELECT p.nama, ...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->pesertaQurban()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 07:02:01 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\PesertaController.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->pesertaQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 07:02:05 --> mysqli_sql_exception: Table 'appkoperasi.peserta' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\PesertaController.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 07:02:05 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\PesertaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 07:03:15 --> mysqli_sql_exception: Table 'appkoperasi.periode' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\SettingController.php(118): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\SettingController->addkategori()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 07:03:15 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\SettingController.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\SettingController->addkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 07:04:42 --> mysqli_sql_exception: Table 'appkoperasi.periode' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\SettingController.php(118): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\SettingController->addkategori()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 07:04:42 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\SettingController.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\SettingController->addkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 07:05:43 --> mysqli_sql_exception: Table 'appkoperasi.periode' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\SettingController.php(118): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\SettingController->addkategori()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 07:05:43 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\SettingController.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\SettingController->addkategori()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 13:29:14 --> mysqli_sql_exception: Column 'kategori' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `s...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `s...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `s...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `s...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\GaleriController.php(76): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->updatekategori()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-14 13:31:26 --> mysqli_sql_exception: Column 'kategori' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `s...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `s...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `s...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `s...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\GaleriController.php(76): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->updatekategori()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-14 14:47:04 --> mysqli_sql_exception: Column 'kategori' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `s...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `s...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `s...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `s...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\GaleriController.php(78): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->updatekategori()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-14 15:44:25 --> The route for "slider-kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(54): url_to('slider-kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/slider', [], true)
+ 7 APPPATH\Controllers\Admin\GaleriController.php(120): view('admin/slider', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 15:44:27 --> The route for "slider-kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(54): url_to('slider-kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/slider', [], true)
+ 7 APPPATH\Controllers\Admin\GaleriController.php(120): view('admin/slider', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 15:44:29 --> The route for "slider-kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(54): url_to('slider-kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 15:44:30 --> The route for "slider-kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(54): url_to('slider-kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 15:44:33 --> The route for "slider-kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(54): url_to('slider-kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 15:46:38 --> The route for "slider-kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(54): url_to('slider-kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 15:46:45 --> The route for "slider-kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(54): url_to('slider-kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-14 15:48:12 --> The route for "kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(61): url_to('kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-14 15:48:13 --> The route for "kategori" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('kategori')
+ 2 APPPATH\Views\admin\layout\admin.php(61): url_to('kategori')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-14 15:57:16 --> The route for "slider-galeri" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-galeri')
+ 2 APPPATH\Views\admin\layout\admin.php(63): url_to('slider-galeri')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-06-14 16:15:21 --> mysqli_sql_exception: Table 'appkoperasi.peserta' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\PesertaController.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 16:15:21 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\PesertaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 16:21:13 --> The route for "slider-galeri" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-galeri')
+ 2 APPPATH\Views\admin\layout\admin.php(63): url_to('slider-galeri')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/s_kategori', [], true)
+ 7 APPPATH\Controllers\Admin\GaleriController.php(23): view('admin/s_kategori', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->sliderkategori()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 16:21:37 --> The route for "slider-galeri" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-galeri')
+ 2 APPPATH\Views\admin\layout\admin.php(63): url_to('slider-galeri')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 16:21:40 --> The route for "slider-galeri" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-galeri')
+ 2 APPPATH\Views\admin\layout\admin.php(63): url_to('slider-galeri')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 17:02:40 --> The route for "slider-kategoris" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('slider-kategoris')
+ 2 APPPATH\Views\admin\layout\admin.php(72): url_to('slider-kategoris')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/s_kategori', [], true)
+ 7 APPPATH\Controllers\Admin\GaleriController.php(23): view('admin/s_kategori', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->sliderkategori()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

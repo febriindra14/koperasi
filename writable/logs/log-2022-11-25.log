@@ -1,0 +1,54 @@
+CRITICAL - 2022-11-25 06:56:13 --> syntax error, unexpected '?>'
+in APPPATH/Views/home/includes/navbar_include.php on line 29.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('home/includes/navbar_include', null, true)
+ 3 APPPATH/Views/home/layouts/home_layout.php(39): CodeIgniter\View\View->include('home/includes/navbar_include')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/layouts/home_layout.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('home/layouts/home_layout', [], true)
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('home/pages/home_pages', [], true)
+ 8 APPPATH/Controllers/Home.php(9): view('home/pages/home_pages')
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 21:10:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+in APPPATH/Controllers/Santri/DashboardController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-25 21:12:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' AND sd.ref_kecamatan_id = rc.nama AND sd.nik = 112233' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(24): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-25 21:12:07 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-25 21:12:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' AND sd.ref_kecamatan_id = rc.nama AND sd.nik = 112233' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(24): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-25 21:12:36 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,62 @@
+ERROR - 2023-12-29 17:11:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bhuh2976_primkoppolwonosobo'@'localhost' (using password: YES) in C:\xampp\htdocs\koperasiwonosobo\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\koperasiwonosobo\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'bhuh2976_primko...', '!koperasi12@', 'bhuh2976_primko...', 3306, '', 0)
+#1 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\koperasiwonosobo\app\Controllers\Admin\BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT title, e...')
+#4 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+#5 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#6 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\koperasiwonosobo\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\koperasiwonosobo\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\koperasiwonosobo\app\Controllers\Admin\BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT title, e...')
+#3 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+#4 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#5 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasiwonosobo\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-29 17:11:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Admin\BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT title, excerpt FROM posts WHERE id_posts = 41 ')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-29 17:51:56 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'koperasiwonosobo' in C:\xampp\htdocs\koperasiwonosobo\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\koperasiwonosobo\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'koperasiwonosob...', 3306, '', 0)
+#1 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\koperasiwonosobo\app\Controllers\Admin\BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT title, e...')
+#4 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+#5 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#6 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\koperasiwonosobo\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'koperasiwonosobo' in C:\xampp\htdocs\koperasiwonosobo\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\koperasiwonosobo\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\koperasiwonosobo\app\Controllers\Admin\BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT title, e...')
+#3 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+#4 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#5 C:\xampp\htdocs\koperasiwonosobo\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasiwonosobo\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-29 17:51:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'koperasiwonosobo'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Admin\BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT title, excerpt FROM posts WHERE id_posts = 41 ')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

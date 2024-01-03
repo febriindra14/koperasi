@@ -1,0 +1,363 @@
+ERROR - 2022-12-08 06:05:10 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-08 08:32:26 --> Call to a member function getError() on null
+in APPPATH/Controllers/Santri/SettingController.php on line 368.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->simpanSantriPendidikan()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 08:49:27 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-08 10:09:51 --> Too few arguments to function App\Controllers\Admin\SantriController::validasiSiswa(), 2 passed in /home/sunanpan/public_html/psb/system/CodeIgniter.php on line 927 and exactly 3 expected
+in APPPATH/Controllers/Admin/SantriController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasiSiswa('mts', '412')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:54:44 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:55:22 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:55:53 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:55:54 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:56:06 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:56:07 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:56:10 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 12:56:21 --> Invalid file: admin/riwayat_pembayaran_mts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/riwayat_pembayaran_mts.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_mts', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(330): view('admin/riwayat_pembayaran_mts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('mts', '3404126612100003')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 13:02:13 --> mysqli_sql_exception: Unknown column 'nik' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(329): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '340412661210000...')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 13:02:13 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SantriController.php on line 329.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '3404126612100003')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 13:03:38 --> mysqli_sql_exception: Unknown column 'nik' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('select * from r...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from r...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from r...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(325): CodeIgniter\Database\BaseConnection->query('select * from r...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '340412661210000...')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 13:03:38 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/riwayat_pembayaran_MTs.php on line 85.
+ 1 APPPATH/Views/admin/riwayat_pembayaran_MTs.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/riwayat_pembayaran_MTs.php', 85, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/riwayat_pembayaran_MTs.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_MTs', [], true)
+ 5 APPPATH/Controllers/Admin/SantriController.php(331): view('admin/riwayat_pembayaran_MTs', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '3404126612100003')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 13:04:01 --> mysqli_sql_exception: Unknown column 'nik' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('select * from r...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from r...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from r...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(325): CodeIgniter\Database\BaseConnection->query('select * from r...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '340412661210000...')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 13:04:01 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/riwayat_pembayaran_MTs.php on line 85.
+ 1 APPPATH/Views/admin/riwayat_pembayaran_MTs.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/riwayat_pembayaran_MTs.php', 85, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/riwayat_pembayaran_MTs.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/riwayat_pembayaran_MTs', [], true)
+ 5 APPPATH/Controllers/Admin/SantriController.php(331): view('admin/riwayat_pembayaran_MTs', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '3404126612100003')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 13:04:36 --> mysqli_sql_exception: Unknown column 'nik' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('select * from r...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from r...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from r...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(325): CodeIgniter\Database\BaseConnection->query('select * from r...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '340412661210000...')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 13:04:36 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SantriController.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->riwayatPembayaran('MTs', '3404126612100003')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 19:27:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('2',NULL)
+WHERE `id` = '412'' at line 1 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `santri`...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `santri`...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `santri`...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `santri`...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(419): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanTahapPembayaranTes('MTs', '$1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-08 19:28:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('4')
+WHERE `id` = '412'' at line 1 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `santri`...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `santri`...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `santri`...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `santri`...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(419): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanTahapPembayaranTes('MTs', '$1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-08 19:28:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('4')
+WHERE `id` = '412'' at line 1 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `santri`...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `santri`...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `santri`...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `santri`...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(419): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanTahapPembayaranTes('MTs', '$1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-08 19:29:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('4')
+WHERE `id` = '412'' at line 1 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `santri`...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `santri`...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `santri`...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `santri`...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(419): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanTahapPembayaranTes('MTs', '$1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 19:56:41 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/pilih_kamar_MTs.php on line 85.
+ 1 APPPATH/Views/admin/pilih_kamar_MTs.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/pilih_kamar_MTs.php', 85, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/pilih_kamar_MTs.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/pilih_kamar_MTs', [], true)
+ 5 APPPATH/Controllers/Admin/SantriController.php(467): view('admin/pilih_kamar_MTs', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '3404126612100003')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 19:57:00 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/pilih_kamar_MTs.php on line 85.
+ 1 APPPATH/Views/admin/pilih_kamar_MTs.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/pilih_kamar_MTs.php', 85, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/pilih_kamar_MTs.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/pilih_kamar_MTs', [], true)
+ 5 APPPATH/Controllers/Admin/SantriController.php(467): view('admin/pilih_kamar_MTs', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '3404126612100003')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 20:06:04 --> mysqli_sql_exception: Unknown column 'Putri' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(469): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '340412661210000...')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 20:06:04 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SantriController.php on line 469.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '3404126612100003')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 20:07:15 --> mysqli_sql_exception: Unknown column 'Putri' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(469): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '340412661210000...')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 20:07:15 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SantriController.php on line 469.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '3404126612100003')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 20:11:35 --> mysqli_sql_exception: Unknown column 'Putri' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(469): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '340412661210000...')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 20:11:35 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SantriController.php on line 469.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '3404126612100003')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 20:12:49 --> mysqli_sql_exception: Unknown column 'Putri' in 'where clause' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(471): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '340412661210000...')
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 20:12:49 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SantriController.php on line 471.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pilihKamar('MTs', '3404126612100003')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-08 20:53:35 --> mysqli_sql_exception: Unknown column 'ref_kamar_id' in 'field list' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(487): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanPilihKamar('MTs', '$1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 22:23:58 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/admin/formtes_MTs.php on line 65.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/formtes_MTs', [], true)
+ 4 APPPATH/Controllers/Admin/SantriController.php(169): view('admin/formtes_MTs', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '412')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 23:09:54 --> Call to a member function query() on null
+in APPPATH/Controllers/Admin/SantriController.php on line 201.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanTahapTes('mts', '$1')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

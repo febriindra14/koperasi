@@ -1,0 +1,448 @@
+CRITICAL - 2022-12-01 00:00:25 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(70): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:00:29 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(70): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:19:25 --> mysqli_sql_exception: Unknown column 'kode_pos.id' in 'on clause' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/SettingController.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 00:19:25 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Santri/SettingController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:19:31 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(82): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 00:19:31 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 82.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('30')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:19:49 --> mysqli_sql_exception: Unknown column 'kode_pos.id' in 'on clause' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/SettingController.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 00:19:49 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/SettingController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:20:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/Santri/SettingController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:20:20 --> mysqli_sql_exception: Unknown column 'kode_pos.id' in 'on clause' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/SettingController.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 00:20:20 --> Call to a member function select() on bool
+in APPPATH/Controllers/Santri/SettingController.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:21:01 --> mysqli_sql_exception: Unknown column 'kode_pos.nik' in 'on clause' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/SettingController.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 00:21:01 --> Call to a member function select() on bool
+in APPPATH/Controllers/Santri/SettingController.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:21:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH/Controllers/Santri/SettingController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:21:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/Santri/SettingController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:22:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/Santri/SettingController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 01:00:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 01:00:22 --> Invalid file: admin/santri-detail_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 01:02:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 06:39:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 06:40:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 06:40:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 13:43:55 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-01 14:01:08 --> Call to a member function getError() on null
+in APPPATH/Controllers/FormPendidikanController.php on line 231.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 14:09:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 14:09:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 14:09:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 14:14:41 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 14:15:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '10')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 14:15:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '10')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 15:07:42 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 15:47:09 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 16:53:43 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 18:09:46 --> mysqli_sql_exception: Column 'jadwal_tes_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormPrestasiController.php(173): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 18:40:26 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 19:27:06 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 20:18:09 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 21:45:19 --> mysqli_sql_exception: Column 'ref_kabupaten_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormSantriController.php(149): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 21:48:21 --> mysqli_sql_exception: Column 'jadwal_tes_id' cannot be null in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/app/Controllers/FormPrestasiController.php(173): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 23:00:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '174')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

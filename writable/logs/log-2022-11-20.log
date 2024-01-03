@@ -1,0 +1,267 @@
+CRITICAL - 2022-11-20 00:52:19 --> Undefined offset: 1
+in VENDORPATH/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php on line 77.
+ 1 VENDORPATH/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(26): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal()
+ 3 VENDORPATH/myth/auth/src/Authentication/Passwords/PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check()
+ 4 VENDORPATH/myth/auth/src/Authentication/Passwords/ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check()
+ 5 SYSTEMPATH/Validation/Validation.php(314): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password()
+ 6 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(164): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-20 00:53:36 --> Undefined offset: 1
+in VENDORPATH/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php on line 77.
+ 1 VENDORPATH/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(26): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal()
+ 3 VENDORPATH/myth/auth/src/Authentication/Passwords/PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check()
+ 4 VENDORPATH/myth/auth/src/Authentication/Passwords/ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check()
+ 5 SYSTEMPATH/Validation/Validation.php(314): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password()
+ 6 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(164): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-20 00:55:00 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-11-20 00:55:00 --> 
+CRITICAL - 2022-11-20 00:56:17 --> Class name must be a valid object or a string
+in VENDORPATH/myth/auth/src/Config/Services.php on line 81.
+ 1 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 2 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 3 VENDORPATH/myth/auth/src/Config/Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance()
+ 4 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH/Common.php(959): CodeIgniter\Config\BaseService::__callStatic()
+ 6 VENDORPATH/myth/auth/src/Controllers/AuthController.php(184): service()
+ 7 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-20 00:58:22 --> Class name must be a valid object or a string
+in VENDORPATH/myth/auth/src/Config/Services.php on line 81.
+ 1 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 2 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 3 VENDORPATH/myth/auth/src/Config/Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance()
+ 4 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH/Common.php(959): CodeIgniter\Config\BaseService::__callStatic()
+ 6 VENDORPATH/myth/auth/src/Controllers/AuthController.php(399): service()
+ 7 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-20 00:58:41 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-11-20 00:58:41 --> 
+CRITICAL - 2022-11-20 01:21:53 --> Class name must be a valid object or a string
+in VENDORPATH/myth/auth/src/Config/Services.php on line 81.
+ 1 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 2 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 3 VENDORPATH/myth/auth/src/Config/Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance()
+ 4 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH/Common.php(959): CodeIgniter\Config\BaseService::__callStatic()
+ 6 VENDORPATH/myth/auth/src/Controllers/AuthController.php(399): service()
+ 7 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-20 01:26:05 --> Class name must be a valid object or a string
+in VENDORPATH/myth/auth/src/Config/Services.php on line 81.
+ 1 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 2 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 3 VENDORPATH/myth/auth/src/Config/Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance()
+ 4 SYSTEMPATH/Config/BaseService.php(253): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH/Common.php(959): CodeIgniter\Config\BaseService::__callStatic()
+ 6 VENDORPATH/myth/auth/src/Controllers/AuthController.php(184): service()
+ 7 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-20 02:28:41 --> You do not have sufficient permissions to access that page.
+in VENDORPATH/myth/auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-20 02:30:51 --> You do not have sufficient permissions to access that page.
+in VENDORPATH/myth/auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-20 06:00:50 --> The route for "dashboard-santri" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/santri/includes/sidenav.php(37): url_to()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/includes/sidenav.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 6 APPPATH/Views/santri/layouts/index.php(95): CodeIgniter\View\View->include()
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/layouts/index.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+10 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/Santri/DataSantriController.php(19): view()
+12 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DataSantriController->index()
+13 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-20 13:55:47 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `usernam...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(772): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-20 13:55:48 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `usernam...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(772): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-20 13:55:49 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `usernam...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(772): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-20 13:56:12 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `usernam...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(772): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-20 14:31:41 --> The route for "https://www.newpsb.sunanpandanaran.com/index.php/pendaftaran/step-1" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://www.newpsb.sunanpandanaran.com/index.php/pendaftaran/step-1')
+ 2 SYSTEMPATH/Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Santri/DashboardController.php(25): redirect('https://www.newpsb.sunanpandanaran.com/index.php/pendaftaran/step-1')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-20 14:44:00 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormSantriController.php(126): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-20 15:13:29 --> mysqli_sql_exception: Duplicate entry '12345678' for key 'nik' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormSantriController.php(129): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-20 21:11:27 --> syntax error, unexpected '?>'
+in APPPATH/Views/auth/login.php on line 87.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('\\App\\Views\\auth\\login', [], true)
+ 3 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view('\\App\\Views\\auth\\login', [...])
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\auth\\login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:28:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/FormSantriController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:29:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/FormSantriController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:29:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/FormSantriController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:29:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/FormSantriController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:30:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/FormSantriController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:30:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/FormSantriController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:31:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/FormSantriController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-20 22:33:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRows()
+in APPPATH/Controllers/FormSantriController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,217 @@
+CRITICAL - 2023-06-21 05:32:28 --> Invalid file: admin/Galerisub.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Galerisub.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Galerisub', [], true)
+ 3 APPPATH\Controllers\Admin\GaleriController.php(109): view('admin/Galerisub', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 05:32:35 --> Invalid file: admin/Slidersub.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Slidersub.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Slidersub', [], true)
+ 3 APPPATH\Controllers\Admin\GaleriController.php(222): view('admin/Slidersub', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 05:37:05 --> Invalid file: admin/Slidersub.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Slidersub.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/Slidersub', [], true)
+ 3 APPPATH\Controllers\Admin\GaleriController.php(222): view('admin/Slidersub', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 05:44:29 --> Invalid file: admin/tambah_slider.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_slider.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/tambah_slider', [], true)
+ 3 APPPATH\Controllers\Admin\GaleriController.php(235): view('admin/tambah_slider', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->addslider()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 05:45:31 --> Invalid file: admin/edit_slider.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_slider.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_slider', [], true)
+ 3 APPPATH\Controllers\Admin\GaleriController.php(272): view('admin/edit_slider', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->editslider('4')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 09:47:22 --> mysqli_sql_exception: Unknown column 'id_category' in 'order clause' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\appKoperasiWeb\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\KategoriController.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\KategoriController->kategoriBerita()
+#7 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KategoriController))
+#8 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-21 09:47:22 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KategoriController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KategoriController->kategoriBerita()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KategoriController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 09:47:31 --> mysqli_sql_exception: Unknown column 'p.id_category' in 'where clause' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.*,k.* ...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*,k.* ...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*,k.* ...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\BeritaController.php(17): CodeIgniter\Database\BaseConnection->query('SELECT p.*,k.* ...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->Berita()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 09:47:31 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\BeritaController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\BeritaController->Berita()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 15:07:11 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/app/Controllers/Admin/GaleriController.php(220): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 15:07:11 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/GaleriController.php on line 221.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 15:07:39 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/app/Controllers/Admin/GaleriController.php(220): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 15:07:39 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/GaleriController.php on line 221.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 15:07:46 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/app/Controllers/Admin/GaleriController.php(107): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appKoperasiWeb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 15:07:46 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/GaleriController.php on line 108.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 18:47:09 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\GaleriController.php(107): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 18:47:09 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\GaleriController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 18:47:14 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\GaleriController.php(107): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 18:47:14 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\GaleriController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 18:50:38 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\GaleriController.php(107): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 18:50:38 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\GaleriController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 18:53:42 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\GaleriController.php(107): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 18:53:42 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\GaleriController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 18:55:56 --> mysqli_sql_exception: Unknown column 'slider.id_kategori' in 'on clause' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\GaleriController.php(220): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 18:55:56 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\GaleriController.php on line 221.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\GaleriController->slider()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GaleriController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

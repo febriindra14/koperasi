@@ -1,0 +1,105 @@
+ERROR - 2023-01-28 09:05:48 --> mysqli_sql_exception: Table 'appqurban.ref_jenispendaftaran' doesn't exist in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT rj.id, r...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT rj.id, r...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT rj.id, r...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Home.php(11): CodeIgniter\Database\BaseConnection->query('SELECT rj.id, r...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-28 09:05:48 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 09:20:49 --> Argument 2 passed to view() must be of the type array, string given, called in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Home.php on line 15
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Home.php(15): view('home/pages/home_pages', '/Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-28 10:44:45 --> mysqli_sql_exception: Table 'appqurban.santri' doesn't exist in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/DashboardController.php(177): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 10:44:45 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Database/BaseBuilder.php on line 1616.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(177): CodeIgniter\Database\BaseBuilder->countAll()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-28 10:46:03 --> mysqli_sql_exception: Table 'appqurban.santri' doesn't exist in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/DashboardController.php(177): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 10:46:03 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Database/BaseBuilder.php on line 1616.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(177): CodeIgniter\Database\BaseBuilder->countAll()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-28 10:46:05 --> mysqli_sql_exception: Table 'appqurban.santri' doesn't exist in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/DashboardController.php(177): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 10:46:05 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Database/BaseBuilder.php on line 1616.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(177): CodeIgniter\Database\BaseBuilder->countAll()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 10:52:02 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/dashboard.php on line 144.
+ 1 APPPATH/Views/admin/dashboard.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/dashboard.php', 144, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH/Controllers/Admin/DashboardController.php(188): view('admin/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 11:48:13 --> The route for "daftarkan-santri" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('daftarkan-santri')
+ 2 APPPATH/Views/admin/layout/admin.php(36): url_to('daftarkan-santri')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH/Controllers/Admin/DashboardController.php(188): view('admin/dashboard', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

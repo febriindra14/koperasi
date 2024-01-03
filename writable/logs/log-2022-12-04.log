@@ -1,0 +1,52 @@
+CRITICAL - 2022-12-04 11:01:31 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/DashboardController.php on line 15
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(15): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->cekredirect()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 21:39:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(217): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '1')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-04 21:39:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(217): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '5')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-04 23:42:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php(217): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '224')
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-04 23:42:51 --> Invalid file: admin/santri_detail_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri_detail_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri_detail_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(223): view('admin/santri_detail_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '224')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,22 @@
+CRITICAL - 2023-10-31 15:33:58 --> Undefined property: stdClass::$logo
+in APPPATH/Views/admin/kontak.php on line 42.
+ 1 APPPATH/Views/admin/kontak.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$logo', 'APPPATH/Views/admin/kontak.php', 42)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/kontak.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/kontak', [], true)
+ 5 APPPATH/Controllers/Admin/KontakController.php(21): view('admin/kontak', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:43:48 --> Undefined variable $login
+in APPPATH/Views/admin/halaman_depan.php on line 66.
+ 1 APPPATH/Views/admin/halaman_depan.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login', 'APPPATH/Views/admin/halaman_depan.php', 66)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/halaman_depan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH/Controllers/Admin/BeritaController.php(36): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

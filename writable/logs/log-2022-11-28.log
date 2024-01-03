@@ -1,0 +1,217 @@
+CRITICAL - 2022-11-28 00:50:32 --> Invalid file: admin/santri/daftarkan_santri.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/daftarkan_santri.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/daftarkan_santri', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(17): view('admin/santri/daftarkan_santri', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->daftarkanSantri()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:50:56 --> Invalid file: admin/santri/pembayaran_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/pembayaran_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/pembayaran_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(60): view('admin/santri/pembayaran_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MA')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 01:10:25 --> Invalid file: admin/santri/daftarkan_santri.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/daftarkan_santri.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/daftarkan_santri', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(17): view('admin/santri/daftarkan_santri', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->daftarkanSantri()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 01:53:28 --> Invalid file: admin/santri/pembayaran_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/pembayaran_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/pembayaran_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(60): view('admin/santri/pembayaran_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MA')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 01:55:43 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:07:57 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Santri/DashboardController.php on line 68.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:10:53 --> Call to a member function AllData() on null
+in APPPATH/Controllers/Santri/DashboardController.php on line 68.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:12:05 --> Argument 2 passed to view() must be of the type array, null given, called in /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php on line 79
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Santri/DashboardController.php(79): view('santri/pages/dashboard', null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:14:07 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:15:38 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:20:04 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:58:08 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 02:58:21 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:01:28 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:03:23 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:07:24 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:18:15 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:25:22 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:29:01 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:30:12 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:46:28 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 78.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:52:50 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 78.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:39:26 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 78.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 13:45:51 --> Invalid file: admin/santri/daftarkan_santri.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/daftarkan_santri.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/daftarkan_santri', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(17): view('admin/santri/daftarkan_santri', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->daftarkanSantri()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 13:47:51 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 78.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 14:51:06 --> Call to a member function getError() on null
+in APPPATH/Controllers/FormPrestasiController.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 14:53:24 --> Call to a member function getError() on null
+in APPPATH/Controllers/FormPrestasiController.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 14:56:18 --> Call to a member function getError() on null
+in APPPATH/Controllers/FormPrestasiController.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 14:56:40 --> Call to a member function getError() on null
+in APPPATH/Controllers/FormPrestasiController.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 14:58:52 --> Class 'App\Controllers\SantriTesModel' not found
+in APPPATH/Controllers/FormPrestasiController.php on line 167.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 15:01:23 --> mysqli_sql_exception: Column 'jadwal_tes_id' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPrestasiController.php(171): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-28 15:06:37 --> Class 'App\Controllers\DateTimeZone' not found
+in APPPATH/Controllers/FormPrestasiController.php on line 165.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

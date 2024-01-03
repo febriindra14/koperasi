@@ -1,0 +1,430 @@
+CRITICAL - 2023-06-11 10:26:47 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1144.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('admin/edit-kontak/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('edit-kontak')
+ 4 SYSTEMPATH\Helpers\url_helper.php(536): route_to('edit-kontak')
+ 5 APPPATH\Views\admin\layout\admin.php(73): url_to('edit-kontak')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_kontak', [], true)
+10 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/edit_kontak', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 10:27:00 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1144.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('admin/edit-kontak/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('edit-kontak')
+ 4 SYSTEMPATH\Helpers\url_helper.php(536): route_to('edit-kontak')
+ 5 APPPATH\Views\admin\layout\admin.php(73): url_to('edit-kontak')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+10 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 10:27:03 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1144.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('admin/edit-kontak/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('edit-kontak')
+ 4 SYSTEMPATH\Helpers\url_helper.php(536): route_to('edit-kontak')
+ 5 APPPATH\Views\admin\layout\admin.php(73): url_to('edit-kontak')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+10 APPPATH\Controllers\Admin\DashboardController.php(183): view('admin/dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 10:27:08 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1144.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('admin/edit-kontak/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('edit-kontak')
+ 4 SYSTEMPATH\Helpers\url_helper.php(536): route_to('edit-kontak')
+ 5 APPPATH\Views\admin\layout\admin.php(73): url_to('edit-kontak')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+10 APPPATH\Controllers\Home.php(18): view('admin/dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 10:31:44 --> Router.invalidParameterType
+in SYSTEMPATH\Router\RouteCollection.php on line 1144.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('admin/editkontak/([^/]+)', [])
+ 3 SYSTEMPATH\Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('editkontak')
+ 4 SYSTEMPATH\Helpers\url_helper.php(536): route_to('editkontak')
+ 5 APPPATH\Views\admin\layout\admin.php(73): url_to('editkontak')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_kontak', [], true)
+10 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/edit_kontak', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 10:38:35 --> Too few arguments to function App\Controllers\Admin\KontakController::index(), 0 passed in C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Admin\KontakController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 11:16:50 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\edit_transaksi.php on line 28.
+ 1 APPPATH\Views\admin\edit_transaksi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\edit_transaksi.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_transaksi', [], true)
+ 5 APPPATH\Controllers\Admin\KontakController.php(39): view('admin/edit_transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->editkontak('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-11 11:43:18 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 11:49:03 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 11:49:10 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 11:54:18 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 11:54:34 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:20:18 --> mysqli_sql_exception: Table 'appkoperasi.peserta' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\PesertaController.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-11 12:20:18 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\PesertaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-11 12:21:15 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:27:27 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:27:31 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:27:35 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:29:44 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-11 12:32:49 --> The route for "/admin/update-kontak" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('/admin/update-kontak')
+ 2 APPPATH\Views\admin\edit_transaksi.php(12): url_to('/admin/update-kontak')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_transaksi.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_transaksi', [], true)
+ 6 APPPATH\Controllers\Admin\KontakController.php(39): view('admin/edit_transaksi', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->editkontak('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-11 12:33:43 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:47:41 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:49:59 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:52:09 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:57:38 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-11 12:58:43 --> mysqli_sql_exception: Column 'logo' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(57): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->updatekontak()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-11 15:51:57 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\member.php on line 33.
+ 1 APPPATH\Views\admin\member.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\member.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\member.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/member', [], true)
+ 5 APPPATH\Controllers\Admin\MemberController.php(21): view('admin/member', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-11 16:18:28 --> mysqli_sql_exception: Table 'appkoperasi.keuangan' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KeuanganController.php(116): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->addtransaksi()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-11 16:18:28 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KeuanganController.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->addtransaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 17:00:23 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\member.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\member.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/member', [], true)
+ 6 APPPATH\Controllers\Admin\MemberController.php(21): view('admin/member', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 17:00:37 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\kontak.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kontak.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kontak', [], true)
+ 6 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/kontak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 17:00:39 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\member.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\member.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/member', [], true)
+ 6 APPPATH\Controllers\Admin\MemberController.php(21): view('admin/member', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 17:00:52 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\member.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\member.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/member', [], true)
+ 6 APPPATH\Controllers\Admin\MemberController.php(21): view('admin/member', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 17:02:17 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\member.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\member.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/member', [], true)
+ 6 APPPATH\Controllers\Admin\MemberController.php(21): view('admin/member', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 17:02:57 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\member.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\member.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/member', [], true)
+ 6 APPPATH\Controllers\Admin\MemberController.php(21): view('admin/member', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 17:02:58 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\member.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\member.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/member', [], true)
+ 6 APPPATH\Controllers\Admin\MemberController.php(21): view('admin/member', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

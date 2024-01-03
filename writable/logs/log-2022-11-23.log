@@ -1,0 +1,484 @@
+ERROR - 2022-11-23 08:20:14 --> mysqli_sql_exception: Column 'nisn' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(273): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-23 08:20:14 --> mysqli_sql_exception: Column 'tingkat' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(297): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-23 08:27:34 --> mysqli_sql_exception: Column 'nisn' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(281): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-23 08:27:34 --> mysqli_sql_exception: Column 'tingkat' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(305): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-23 09:05:21 --> mysqli_sql_exception: Column 'nisn' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(280): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-23 09:08:46 --> mysqli_sql_exception: Column 'nisn' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(280): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-23 09:11:12 --> mysqli_sql_exception: Column 'tingkat' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(303): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-23 09:12:28 --> mysqli_sql_exception: Column 'tingkat2' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPendidikanController.php(303): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPendidikanController->simpanPendidikan()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPendidikanController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-23 09:40:28 --> Invalid argument supplied for foreach()
+in APPPATH/Views/home/pages/prestasi_pages.php on line 132.
+ 1 APPPATH/Views/home/pages/prestasi_pages.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/home/pages/prestasi_pages.php', 132, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/pages/prestasi_pages.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('home/pages/prestasi_pages', [], true)
+ 5 APPPATH/Controllers/FormPrestasiController.php(20): view('home/pages/prestasi_pages', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->prestasi()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:11:00 --> Invalid file: admin/santri/validasiMA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MA')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:11:01 --> Invalid file: admin/santri/validasiMA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MA')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:11:02 --> Invalid file: admin/santri/validasiMA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MA')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:11:08 --> Invalid file: admin/santri/validasiMTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:16:46 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH/Controllers/Admin/SettingController.php(17): view('admin/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 11:34:04 --> Call to a member function hasError() on null
+in APPPATH/Views/admin/tahun_ajaran.php on line 81.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tahun_ajaran', [], true)
+ 4 APPPATH/Controllers/Admin/SettingController.php(17): view('admin/tahun_ajaran', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 12:01:54 --> Call to a member function getResult() on array
+in APPPATH/Controllers/Admin/SettingController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 12:45:15 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 729.
+ 1 SYSTEMPATH/BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH/BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH/Controllers/Admin/SettingController.php(41): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->simpanGelTA()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 12:50:17 --> mysqli_sql_exception: Not unique table/alias: 'ref_tahun' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SettingController.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-23 12:50:17 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/Admin/SettingController.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 12:50:36 --> Call to undefined method App\Models\TahunModel::getResult
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/SettingController.php(19): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 12:51:47 --> Call to undefined method App\Models\TahunModel::getResult
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/SettingController.php(19): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 12:52:14 --> Call to undefined method App\Models\JenisPendaftaranModel::getResult
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/SettingController.php(19): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 12:54:47 --> Cannot use object of type stdClass as array
+in APPPATH/Views/admin/tahun_ajaran.php on line 51.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tahun_ajaran', [], true)
+ 4 APPPATH/Controllers/Admin/SettingController.php(21): view('admin/tahun_ajaran', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:52:28 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 867.
+ 1 SYSTEMPATH/BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Admin/SettingController.php(62): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:55:43 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 867.
+ 1 SYSTEMPATH/BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Admin/SettingController.php(62): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:57:22 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(63): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:58:01 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(63): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:59:15 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(63): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:59:25 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(63): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 14:02:07 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(65): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 14:02:14 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(65): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 20:01:07 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(65): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->activateGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 20:01:46 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SettingController.php(80): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->openGel('1')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 20:12:21 --> mysqli_sql_exception: Unknown column 'ref_jenispendaftaran.gelombang' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `ref_jen...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_jen...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_jen...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ref_jen...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SettingController.php(21): CodeIgniter\Model->__call('get', Array)
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-23 20:12:21 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SettingController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 20:12:33 --> mysqli_sql_exception: Unknown column 'ref_jenispendaftaran.gelombang' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `ref_jen...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_jen...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_jen...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ref_jen...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SettingController.php(21): CodeIgniter\Model->__call('get', Array)
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-23 20:12:33 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/tahun_ajaran.php on line 51.
+ 1 APPPATH/Views/admin/tahun_ajaran.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/tahun_ajaran.php', 51, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/tahun_ajaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tahun_ajaran', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(23): view('admin/tahun_ajaran', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 20:13:05 --> mysqli_sql_exception: Unknown column 'ref_jenispendaftaran.gelombang' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `ref_jen...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_jen...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_jen...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ref_jen...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SettingController.php(21): CodeIgniter\Model->__call('get', Array)
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-23 20:14:34 --> Call to undefined method App\Models\JenisPendaftaranModel::getResult
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/SettingController.php(21): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 20:17:07 --> mysqli_sql_exception: Unknown column 'ref_jenispendaftaran.gelombang' in 'field list' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `ref_jen...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_jen...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_jen...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ref_jen...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SettingController.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-23 20:17:07 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/tahun_ajaran.php on line 51.
+ 1 APPPATH/Views/admin/tahun_ajaran.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/tahun_ajaran.php', 51, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/tahun_ajaran.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tahun_ajaran', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(26): view('admin/tahun_ajaran', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 20:39:38 --> Invalid file: admin/santri/validasiMTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 20:47:59 --> Invalid file: admin/santri/validasiMTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:57:42 --> Invalid file: admin/santri/validasiMTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:08:45 --> Invalid file: admin/santri/validasiMTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:12:14 --> Invalid file: admin/santri/validasiMTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/validasiMTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/validasiMTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(27): view('admin/santri/validasiMTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,150 @@
+CRITICAL - 2023-01-30 00:02:52 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 729.
+ 1 SYSTEMPATH/BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH/BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH/Controllers/Admin/SettingController.php(134): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->savekategori()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:06:53 --> Invalid file: admin/edit_kategori.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_kategori.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_kategori', [], true)
+ 3 APPPATH/Controllers/Admin/SettingController.php(157): view('admin/edit_kategori', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->editkategori('1')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:43:43 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/tambah_kategori.php on line 21.
+ 1 APPPATH/Views/admin/tambah_kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/tambah_kategori.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/tambah_kategori.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tambah_kategori', [], true)
+ 5 APPPATH/Controllers/Admin/PesertaController.php(32): view('admin/tambah_kategori', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->addpeserta()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 00:46:14 --> Invalid file: admin/tambah_peserta.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_peserta.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tambah_peserta', [], true)
+ 3 APPPATH/Controllers/Admin/PesertaController.php(32): view('admin/tambah_peserta', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->addpeserta()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 01:29:45 --> Invalid file: admin/add_peserta_qurban.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/add_peserta_qurban.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_peserta_qurban', [], true)
+ 3 APPPATH/Controllers/Admin/PesertaController.php(113): view('admin/add_peserta_qurban', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->addpesertaQurban()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 01:32:47 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/tambah_peserta_qurban.php on line 21.
+ 1 APPPATH/Views/admin/tambah_peserta_qurban.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/tambah_peserta_qurban.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/tambah_peserta_qurban.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tambah_peserta_qurban', [], true)
+ 5 APPPATH/Controllers/Admin/PesertaController.php(113): view('admin/tambah_peserta_qurban', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->addpesertaQurban()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 01:42:26 --> Invalid file: admin/edit_peserta_qurban.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_peserta_qurban.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_peserta_qurban', [], true)
+ 3 APPPATH/Controllers/Admin/PesertaController.php(150): view('admin/edit_peserta_qurban', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->editpesertaQurban('2')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 02:38:20 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/tabungan_qurban.php on line 86.
+ 1 APPPATH/Views/admin/tabungan_qurban.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/tabungan_qurban.php', 86, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/tabungan_qurban.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tabungan_qurban', [], true)
+ 5 APPPATH/Controllers/Admin/PesertaController.php(193): view('admin/tabungan_qurban', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->tabunganQurban('2', '2', '/Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 03:40:47 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/PesertaController.php on line 225.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->savetabunganQurban()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 03:42:05 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/PesertaController.php on line 225.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->savetabunganQurban()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 03:44:49 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/PesertaController.php on line 225.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->savetabunganQurban()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 03:47:15 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/PesertaController.php on line 225.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->savetabunganQurban()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 03:48:44 --> Call to a member function save() on null
+in APPPATH/Controllers/Admin/PesertaController.php on line 223.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->savetabunganQurban()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-30 03:50:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/PesertaController.php(193): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->tabunganQurban('2', '')
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-30 03:50:40 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/PesertaController.php on line 194.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->tabunganQurban('2', '/Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-30 04:00:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/app/Controllers/Admin/PesertaController.php(193): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->tabunganQurban('2', '')
+#5 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-30 04:00:03 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/PesertaController.php on line 194.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->tabunganQurban('2', '/Users/syauqiemuhammadmarier/Documents/SERVER LOKAL/appQurban')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 04:36:38 --> A non-numeric value encountered
+in APPPATH/Controllers/Admin/PesertaController.php on line 231.
+ 1 APPPATH/Controllers/Admin/PesertaController.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Controllers/Admin/PesertaController.php', 231, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\PesertaController->savetabunganQurban()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

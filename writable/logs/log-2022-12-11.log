@@ -1,0 +1,290 @@
+CRITICAL - 2022-12-11 05:29:33 --> The route for "tahap-psikotes-mts" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tahap-psikotes-mts')
+ 2 APPPATH/Views/admin/layout/admin.php(68): url_to('tahap-psikotes-mts')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 7 APPPATH/Controllers/Admin/DashboardController.php(285): view('admin/dashboard', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-11 06:50:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /home/sunanpan/public_html/psb/app/Controllers/Admin/SettingController.php(229): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): App\Controllers\Admin\SettingController->dataUser()
+#5 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#6 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-11 06:50:35 --> Call to a member function getRows() on bool
+in APPPATH/Controllers/Admin/SettingController.php on line 229.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->dataUser()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 06:51:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRows()
+in APPPATH/Controllers/Admin/SettingController.php on line 230.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->dataUser()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 06:51:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRows()
+in APPPATH/Controllers/Admin/SettingController.php on line 230.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->dataUser()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 07:34:38 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '127')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 07:34:39 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '127')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 07:37:00 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:02:42 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '310')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:04:09 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MA')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:04:16 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MA')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:12:05 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 09:34:19 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MA')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 09:55:27 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 347
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(347): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 09:55:30 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 347
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(347): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 09:55:36 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 347
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(347): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 10:00:42 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 508
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(508): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->kamar('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 10:02:47 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 10:02:52 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-11 10:10:36 --> mysqli_sql_exception: Duplicate entry '3308186611070001' for key 'nik' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/vendor/myth/auth/src/Controllers/AuthController.php(211): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-11 10:23:45 --> mysqli_sql_exception: Duplicate entry '3314045002110001' for key 'nik' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/vendor/myth/auth/src/Controllers/AuthController.php(211): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-11 11:16:07 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 11:33:02 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 12:24:22 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 46
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(46): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MA')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:05:55 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '131')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:05:57 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '131')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:06:04 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '131')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:06:15 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:06:56 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:19:13 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 324
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(324): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->psikotes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:19:17 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 173
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(173): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MTs', '131')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:19:21 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:19:25 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 324
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(324): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->psikotes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:19:28 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 324
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(324): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->psikotes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:19:32 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 324
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(324): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->psikotes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 13:19:48 --> Argument 1 passed to Myth\Auth\Models\GroupModel::getGroupsForUser() must be of the type int, null given, called in /home/sunanpan/public_html/psb/app/Controllers/Admin/SantriController.php on line 144
+in FCPATH/vendor/myth/auth/src/Models/GroupModel.php on line 95.
+ 1 APPPATH/Controllers/Admin/SantriController.php(144): Myth\Auth\Models\GroupModel->getGroupsForUser(null)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-11 13:23:15 --> mysqli_sql_exception: Duplicate entry '3309110503110001' for key 'nik' in /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/psb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/psb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/psb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/psb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/psb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/psb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/psb/vendor/myth/auth/src/Controllers/AuthController.php(211): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/psb/system/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 /home/sunanpan/public_html/psb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/sunanpan/public_html/psb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/psb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}

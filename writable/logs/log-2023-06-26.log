@@ -1,0 +1,152 @@
+ERROR - 2023-06-26 11:10:59 --> mysqli_sql_exception: Unknown column 'p.artikel' in 'field list' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.artike...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.artike...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.artike...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.artike...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-26 11:10:59 --> Call to a member function getFirstRow() on bool
+in APPPATH\Controllers\Admin\DetailBerita.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-26 11:12:04 --> mysqli_sql_exception: Unknown column 'p.artikel' in 'field list' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.artike...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.artike...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.artike...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.artike...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-26 11:12:04 --> Call to a member function getFirstRow() on bool
+in APPPATH\Controllers\Admin\DetailBerita.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-26 11:12:05 --> mysqli_sql_exception: Unknown column 'p.artikel' in 'field list' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.artike...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.artike...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.artike...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.artike...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-26 11:12:05 --> Call to a member function getFirstRow() on bool
+in APPPATH\Controllers\Admin\DetailBerita.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-26 11:12:22 --> mysqli_sql_exception: Unknown column 'p.artikel' in 'field list' in C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasiWeb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.artike...', 0)
+#1 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.artike...')
+#2 C:\xampp\htdocs\appKoperasiWeb\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.artike...')
+#3 C:\xampp\htdocs\appKoperasiWeb\app\Controllers\Admin\DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.artike...')
+#4 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 C:\xampp\htdocs\appKoperasiWeb\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasiWeb\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-26 11:12:22 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\Admin\DetailBerita.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 11:15:07 --> Attempt to read property "category_name" on null
+in APPPATH\Views\admin\halaman_depan.php on line 124.
+ 1 APPPATH\Views\admin\halaman_depan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_name" on null', 'APPPATH\\Views\\admin\\halaman_depan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\halaman_depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH\Controllers\Admin\DetailBerita.php(23): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 11:15:36 --> Attempt to read property "category_name" on null
+in APPPATH\Views\admin\halaman_depan.php on line 124.
+ 1 APPPATH\Views\admin\halaman_depan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_name" on null', 'APPPATH\\Views\\admin\\halaman_depan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\halaman_depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH\Controllers\Admin\DetailBerita.php(23): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 11:15:37 --> Attempt to read property "category_name" on null
+in APPPATH\Views\admin\halaman_depan.php on line 124.
+ 1 APPPATH\Views\admin\halaman_depan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_name" on null', 'APPPATH\\Views\\admin\\halaman_depan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\halaman_depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH\Controllers\Admin\DetailBerita.php(23): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 11:16:16 --> Undefined variable $posts
+in APPPATH\Views\admin\halaman_depan.php on line 132.
+ 1 APPPATH\Views\admin\halaman_depan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\admin\\halaman_depan.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\halaman_depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH\Controllers\Admin\DetailBerita.php(23): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 11:17:42 --> Attempt to read property "category_name" on null
+in APPPATH\Views\admin\halaman_depan.php on line 132.
+ 1 APPPATH\Views\admin\halaman_depan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_name" on null', 'APPPATH\\Views\\admin\\halaman_depan.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\halaman_depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH\Controllers\Admin\DetailBerita.php(23): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 11:18:12 --> Attempt to read property "category_name" on null
+in APPPATH\Views\admin\halaman_depan.php on line 132.
+ 1 APPPATH\Views\admin\halaman_depan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_name" on null', 'APPPATH\\Views\\admin\\halaman_depan.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\halaman_depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH\Controllers\Admin\DetailBerita.php(23): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 11:18:13 --> Attempt to read property "category_name" on null
+in APPPATH\Views\admin\halaman_depan.php on line 132.
+ 1 APPPATH\Views\admin\halaman_depan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_name" on null', 'APPPATH\\Views\\admin\\halaman_depan.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\halaman_depan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 5 APPPATH\Controllers\Admin\DetailBerita.php(23): view('admin/halaman_depan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 22:20:52 --> Undefined variable $imageName
+in APPPATH\Controllers\Admin\MemberController.php on line 51.
+ 1 APPPATH\Controllers\Admin\MemberController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\Admin\\MemberController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->savemember()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,146 @@
+CRITICAL - 2023-06-12 10:58:36 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\edit_member.php on line 28.
+ 1 APPPATH\Views\admin\edit_member.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\edit_member.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_member.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_member', [], true)
+ 5 APPPATH\Controllers\Admin\MemberController.php(73): view('admin/edit_member', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->editmember('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-12 13:32:56 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `p...')
+#3 C:\xampp\htdocs\appKoperasi\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `p...', Array, false)
+#4 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\MemberController.php(87): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+#7 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-12 15:53:12 --> Too few arguments to function App\Controllers\Admin\MemberController::updatemember(), 0 passed in C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Admin\MemberController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 15:53:46 --> unlink(public/img): Is a directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/img): Is a directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('FCPATH\\public\\img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 15:54:41 --> unlink(public/img): Is a directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/img): Is a directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('FCPATH\\public\\img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:45:49 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\kontak.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kontak.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kontak', [], true)
+ 6 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/kontak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:45:54 --> The route for "tambah-transaksi" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('tambah-transaksi')
+ 2 APPPATH\Views\admin\kontak.php(13): url_to('tambah-transaksi')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kontak.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kontak', [], true)
+ 6 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/kontak', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:59:59 --> Too few arguments to function App\Controllers\Admin\MemberController::updatemember(), 0 passed in C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Admin\MemberController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:11:08 --> unlink(public/img): Is a directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/img): Is a directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('FCPATH\\public\\img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:35:55 --> unlink(../../../public/img): No such file or directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../../../public/img): No such file or directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('../../../public/img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:36:47 --> unlink(public/img): Is a directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/img): Is a directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('FCPATH\\public\\img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:58:37 --> unlink(../../public/img): Is a directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../../public/img): Is a directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('C:\\xampp\\public\\img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:59:38 --> unlink(../../public/img): Is a directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../../public/img): Is a directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('C:\\xampp\\public\\img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 23:01:45 --> unlink(../../public/img): Is a directory
+in APPPATH\Controllers\Admin\MemberController.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../../public/img): Is a directory', 'APPPATH\\Controllers\\Admin\\MemberController.php', 87, [...])
+ 2 APPPATH\Controllers\Admin\MemberController.php(87): unlink('C:\\xampp\\public\\img')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-12 23:04:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 1 in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\MemberController.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-12 23:04:03 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\MemberController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 23:07:22 --> Too few arguments to function App\Controllers\Admin\MemberController::updatemember(), 0 passed in C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Admin\MemberController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\MemberController->updatemember()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MemberController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,250 @@
+ERROR - 2023-06-10 09:15:25 --> mysqli_sql_exception: Table 'appkoperasi.keuangan' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KeuanganController.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('debet')
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 09:15:25 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KeuanganController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('debet')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 09:15:43 --> mysqli_sql_exception: Table 'appkoperasi.keuangan' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KeuanganController.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('kredit')
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 09:15:43 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KeuanganController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->master('kredit')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 09:37:16 --> mysqli_sql_exception: Table 'appkoperasi.peserta' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\PesertaController.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 09:37:16 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\PesertaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 10:03:14 --> mysqli_sql_exception: Table 'appkoperasi.periode' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\SettingController.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\SettingController->periode()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 10:03:14 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\SettingController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\SettingController->periode()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 10:24:52 --> mysqli_sql_exception: Table 'appkoperasi.transaksi' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT t.*, k.n...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, k.n...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, k.n...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KeuanganController.php(101): CodeIgniter\Database\BaseConnection->query('SELECT t.*, k.n...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 10:24:52 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KeuanganController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 10:28:57 --> mysqli_sql_exception: Table 'appkoperasi.peserta' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\PesertaController.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 10:28:57 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\PesertaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 11:02:11 --> mysqli_sql_exception: Table 'appkoperasi.peserta' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\PesertaController.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 11:02:11 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\PesertaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\PesertaController->peserta()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PesertaController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 11:05:49 --> mysqli_sql_exception: Table 'appkoperasi.transaksi' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT t.*, k.n...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, k.n...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, k.n...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KeuanganController.php(101): CodeIgniter\Database\BaseConnection->query('SELECT t.*, k.n...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 11:05:49 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KeuanganController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 14:19:38 --> mysqli_sql_exception: Table 'appkoperasi.transaksi' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT t.*, k.n...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, k.n...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, k.n...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KeuanganController.php(101): CodeIgniter\Database\BaseConnection->query('SELECT t.*, k.n...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 14:19:38 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KeuanganController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 14:20:07 --> mysqli_sql_exception: Table 'appkoperasi.transaksi' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT t.*, k.n...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t.*, k.n...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t.*, k.n...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KeuanganController.php(101): CodeIgniter\Database\BaseConnection->query('SELECT t.*, k.n...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 14:20:07 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KeuanganController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KeuanganController->transaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KeuanganController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 14:45:42 --> mysqli_sql_exception: Table 'appkoperasi.keuangan' doesn't exist in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->addkontak()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 14:45:42 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KontakController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->addkontak()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-10 15:12:27 --> mysqli_sql_exception: Unknown column 'kategori' in 'order clause' in C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\appKoperasi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xampp\htdocs\appKoperasi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xampp\htdocs\appKoperasi\app\Controllers\Admin\KontakController.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(927): App\Controllers\Admin\KontakController->addkontak()
+#5 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+#6 C:\xampp\htdocs\appKoperasi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appKoperasi\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-10 15:12:27 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Admin\KontakController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->addkontak()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 15:39:43 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\edit_kontak.php on line 28.
+ 1 APPPATH\Views\admin\edit_kontak.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\edit_kontak.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_kontak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_kontak', [], true)
+ 5 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/edit_kontak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 15:41:16 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\edit_kontak.php on line 28.
+ 1 APPPATH\Views\admin\edit_kontak.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\edit_kontak.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_kontak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_kontak', [], true)
+ 5 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/edit_kontak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 15:41:17 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\edit_kontak.php on line 28.
+ 1 APPPATH\Views\admin\edit_kontak.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\admin\\edit_kontak.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_kontak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_kontak', [], true)
+ 5 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/edit_kontak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 15:59:53 --> The route for "member" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 543.
+ 1 SYSTEMPATH\Helpers\url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('member')
+ 2 APPPATH\Views\admin\layout\admin.php(62): url_to('member')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout\\admin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/edit_kontak', [], true)
+ 7 APPPATH\Controllers\Admin\KontakController.php(21): view('admin/edit_kontak', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\KontakController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\KontakController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

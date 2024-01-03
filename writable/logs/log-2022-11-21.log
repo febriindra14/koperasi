@@ -1,0 +1,335 @@
+CRITICAL - 2022-11-21 02:20:32 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:15:14 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:16:50 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in /home/sunanpan/public_html/newpsb/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 463.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(null, [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(null, [])
+ 3 APPPATH/Controllers/FormSantriController.php(37): CodeIgniter\Controller->validate(null)
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:39:23 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:46:29 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:47:54 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:49:20 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:50:42 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 06:05:41 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 06:08:27 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 06:10:18 --> mkdir(): File exists
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'SYSTEMPATH/HTTP/Files/UploadedFile.php', 176, [...])
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir('img/3302160406880002/', 511, true)
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('img/3302160406880002/')
+ 4 APPPATH/Controllers/FormSantriController.php(74): CodeIgniter\HTTP\Files\UploadedFile->move('img/3302160406880002/', '1669032618_97aa90f19761b42b38f2.jpeg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 06:12:54 --> mkdir(): File exists
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'SYSTEMPATH/HTTP/Files/UploadedFile.php', 176, [...])
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir('img/3302160406880002/', 511, true)
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('img/3302160406880002/')
+ 4 APPPATH/Controllers/FormSantriController.php(74): CodeIgniter\HTTP\Files\UploadedFile->move('img/3302160406880002/', '1669032774_88010b4e8a2be9201135.jpeg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 06:13:50 --> mkdir(): File exists
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'SYSTEMPATH/HTTP/Files/UploadedFile.php', 176, [...])
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir('img/3302160406880002/', 511, true)
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('img/3302160406880002/')
+ 4 APPPATH/Controllers/FormSantriController.php(75): CodeIgniter\HTTP\Files\UploadedFile->move('img/3302160406880002/', '1669032830_be9aade687dec2849c9f.jpeg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 06:14:06 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 06:14:44 --> mkdir(): File exists
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'SYSTEMPATH/HTTP/Files/UploadedFile.php', 176, [...])
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir('img/3302160406880002/', 511, true)
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('img/3302160406880002/')
+ 4 APPPATH/Controllers/FormSantriController.php(75): CodeIgniter\HTTP\Files\UploadedFile->move('img/3302160406880002/', '1669032884_a37a89a918d8d5342f23.jpeg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 08:25:24 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 08:48:05 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('getkabupaten', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:50:18 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): Myth\Auth\Entities\User->getRoles()
+ 2 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:50:19 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): Myth\Auth\Entities\User->getRoles()
+ 2 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:51:42 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 SYSTEMPATH/Entity/Entity.php(491): Myth\Auth\Entities\User->getRoles()
+ 2 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): CodeIgniter\Entity\Entity->__get('roles')
+ 3 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:51:44 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 SYSTEMPATH/Entity/Entity.php(491): Myth\Auth\Entities\User->getRoles()
+ 2 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): CodeIgniter\Entity\Entity->__get('roles')
+ 3 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:52:33 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 SYSTEMPATH/Entity/Entity.php(491): Myth\Auth\Entities\User->getRoles()
+ 2 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): CodeIgniter\Entity\Entity->__get('roles')
+ 3 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:53:16 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 SYSTEMPATH/Entity/Entity.php(491): Myth\Auth\Entities\User->getRoles()
+ 2 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): CodeIgniter\Entity\Entity->__get('roles')
+ 3 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:55:44 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): Myth\Auth\Entities\User->getRoles()
+ 2 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:56:55 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): Myth\Auth\Entities\User->getRoles()
+ 2 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:56:56 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): Myth\Auth\Entities\User->getRoles()
+ 2 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 21:59:01 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(51): Myth\Auth\Entities\User->getRoles()
+ 2 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:06:58 --> Call to undefined method Myth\Auth\Entities\User::session()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 52.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:07:04 --> Call to undefined method Myth\Auth\Entities\User::session()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 52.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:09:30 --> Call to a member function getGroupsForUser() on null
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 50.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:12:56 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:12:58 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:13:48 --> Call to undefined function Myth\Auth\Controllers\user()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:13:49 --> Call to undefined function Myth\Auth\Controllers\user()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:27:52 --> Call to undefined function logged_id()
+in APPPATH/Views/home/includes/navbar_include.php on line 16.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('home/includes/navbar_include', null, true)
+ 4 APPPATH/Views/home/layouts/form_layout.php(18): CodeIgniter\View\View->include('home/includes/navbar_include')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/layouts/form_layout.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('home/layouts/form_layout', [], true)
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('home/pages/santri_pages', [], true)
+ 9 APPPATH/Controllers/FormSantriController.php(31): view('home/pages/santri_pages', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:27:54 --> Call to undefined function logged_id()
+in APPPATH/Views/home/includes/navbar_include.php on line 16.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('home/includes/navbar_include', null, true)
+ 4 APPPATH/Views/home/layouts/form_layout.php(18): CodeIgniter\View\View->include('home/includes/navbar_include')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/layouts/form_layout.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('home/layouts/form_layout', [], true)
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('home/pages/santri_pages', [], true)
+ 9 APPPATH/Controllers/FormSantriController.php(31): view('home/pages/santri_pages', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormSantriController->santri()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:47:26 --> Call to undefined function Myth\Auth\Controllers\user_id()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 49.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:47:44 --> Call to undefined function Myth\Auth\Controllers\user_id()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 49.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 22:56:17 --> Call to undefined function Myth\Auth\Controllers\user_id()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 49.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:03:25 --> Call to undefined function Myth\Auth\Controllers\user_id()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 49.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:03:27 --> Call to undefined function Myth\Auth\Controllers\user_id()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 49.
+ 1 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:05:48 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(13): Myth\Auth\Entities\User->getRoles()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->cekredirect()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 23:06:11 --> Users must be created before getting roles.
+in FCPATH/vendor/myth/auth/src/Entities/User.php on line 266.
+ 1 APPPATH/Controllers/Admin/DashboardController.php(13): Myth\Auth\Entities\User->getRoles('11')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->cekredirect()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

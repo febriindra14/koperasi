@@ -1,0 +1,920 @@
+CRITICAL - 2022-11-30 01:33:09 --> Invalid file: admin/formtes_ma.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/formtes_ma.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/formtes_ma', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(146): view('admin/formtes_ma', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('ma', '21')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:33:17 --> Invalid file: admin/santri/kamar_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/kamar_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/kamar_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(166): view('admin/santri/kamar_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->kamar('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:05:40 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin/SantriController.php(170): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->simpanTes('mts', '/home/sunanpan/public_html/newpsb')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:53:27 --> Invalid file: admin/santri/pembayaran_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/pembayaran_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/pembayaran_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(200): view('admin/santri/pembayaran_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->pembayaran('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:55:34 --> Invalid file: admin/formtes_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/formtes_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/formtes_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(150): view('admin/formtes_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tesSiswa('MA', '21')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 08:27:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(72): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 08:27:29 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:57:04 --> Invalid file: admin/santri/kamar_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/kamar_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/kamar_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(221): view('admin/santri/kamar_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->kamar('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:57:07 --> Invalid file: admin/santri/kamar_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/kamar_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/kamar_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(221): view('admin/santri/kamar_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->kamar('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:14:17 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/data_kamar.php on line 129.
+ 1 APPPATH/Views/admin/data_kamar.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/data_kamar.php', 129, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/data_kamar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/data_kamar', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(150): view('admin/data_kamar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->dataKamar()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 11:14:02 --> Invalid file: admin/santri/kamar_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/kamar_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/kamar_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(221): view('admin/santri/kamar_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->kamar('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 11:27:42 --> mysqli_sql_exception: Column 'jadwal_tes_id' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPrestasiController.php(172): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-30 11:40:26 --> The route for "data-kamar" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('data-kamar')
+ 2 APPPATH/Views/admin/layout/admin.php(114): url_to('data-kamar')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tahaptes_MA', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(128): view('admin/tahaptes_MA', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MA')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 11:40:40 --> The route for "data-kamar" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('data-kamar')
+ 2 APPPATH/Views/admin/layout/admin.php(114): url_to('data-kamar')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/validasiMTs', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(41): view('admin/validasiMTs', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 11:40:49 --> The route for "data-kamar" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('data-kamar')
+ 2 APPPATH/Views/admin/layout/admin.php(114): url_to('data-kamar')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/validasiMA', [], true)
+ 7 APPPATH/Controllers/Admin/SantriController.php(41): view('admin/validasiMA', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MA')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 11:40:58 --> The route for "data-kamar" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 543.
+ 1 SYSTEMPATH/Helpers/url_helper.php(543): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('data-kamar')
+ 2 APPPATH/Views/admin/layout/admin.php(114): url_to('data-kamar')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/layout/admin.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('admin/layout/admin', [], true)
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/tahun_ajaran', [], true)
+ 7 APPPATH/Controllers/Admin/SettingController.php(25): view('admin/tahun_ajaran', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 11:51:10 --> mysqli_sql_exception: Column 'ref_jenjang_id' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormSantriController.php(123): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormSantriController->simpanSantri()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormSantriController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-30 12:15:26 --> Invalid file: admin/santri/kamar_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/kamar_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/kamar_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(221): view('admin/santri/kamar_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->kamar('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 12:23:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(69): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 12:23:12 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 12:23:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+in APPPATH/Controllers/Santri/DashboardController.php on line 69.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 12:34:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(75): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('62122222222')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 12:34:11 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('62122222222')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 12:38:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(75): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('62122222222')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 12:38:25 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('62122222222')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 12:49:31 --> Call to undefined method Dompdf\Dompdf::loadView()
+in APPPATH/Controllers/Santri/DashboardController.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 13:18:59 --> Too few arguments to function App\Controllers\Santri\DashboardController::cetakKartu(), 1 passed in /home/sunanpan/public_html/newpsb/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Santri/DashboardController.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 13:48:19 --> mysqli_sql_exception: Column 'jadwal_tes_id' cannot be null in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sunanpan/public_html/newpsb/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /home/sunanpan/public_html/newpsb/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/sunanpan/public_html/newpsb/app/Controllers/FormPrestasiController.php(172): CodeIgniter\Model->insert(Array)
+#8 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\FormPrestasiController->simpanPrestasi()
+#9 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+#10 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-30 14:46:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sd.nik = sp.nik' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(79): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 14:46:34 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 14:50:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sd.nik = sp.nik' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(79): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 14:50:34 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 14:50:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sd.nik = sp.nik' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(79): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('32')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 14:50:44 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('32')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 14:52:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sd.nik = sp.nik' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(79): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 14:52:36 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 14:53:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sd.nik = sp.nik' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(79): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('32')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 14:53:15 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('32')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 14:55:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sd.nik = sp.nik' at line 1 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sd.*, rp...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sd.*, rp...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sd.*, rp...')
+#3 /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php(79): CodeIgniter\Database\BaseConnection->query('SELECT sd.*, rp...')
+#4 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('32')
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-30 14:55:25 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Santri/DashboardController.php on line 79.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('32')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 15:32:41 --> Class 'App\Models\santriModel' not found
+in APPPATH/Controllers/Santri/SettingController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 15:33:36 --> Class 'App\Models\santriModel' not found
+in APPPATH/Controllers/Santri/SettingController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 16:40:20 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH/Controllers/Admin/DashboardController.php(36): view('admin/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 17:04:02 --> mysqli_sql_exception: Not unique table/alias: 'santri' in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/DashboardController.php(31): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 17:13:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH/Controllers/Admin/DashboardController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:15:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+in APPPATH/Controllers/Admin/DashboardController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:16:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH/Controllers/Admin/DashboardController.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DashboardController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 18:00:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 18:00:16 --> Invalid file: admin/santri-detail_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 18:00:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 18:00:46 --> Invalid file: admin/santri-detail_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 18:00:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 18:00:49 --> Invalid file: admin/santri-detail_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 18:01:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 18:01:01 --> Invalid file: admin/santri-detail_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 18:01:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 18:01:15 --> Invalid file: admin/santri-detail_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '31')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 18:54:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '32')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 18:54:43 --> Invalid file: admin/santri-detail_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '32')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:03:53 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/pages/setting.php on line 77.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 4 APPPATH/Controllers/Santri/SettingController.php(40): view('santri/pages/setting', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:05:06 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/pages/setting.php on line 77.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 4 APPPATH/Controllers/Santri/SettingController.php(40): view('santri/pages/setting', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 19:16:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '38')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 19:16:58 --> Invalid file: admin/santri-detail_MA.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MA.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MA', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MA', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MA', '38')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:29:00 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/pages/setting.php on line 77.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 4 APPPATH/Controllers/Santri/SettingController.php(40): view('santri/pages/setting', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 19:57:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 19:57:42 --> Invalid file: admin/santri-detail_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 20:04:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 20:04:59 --> Invalid file: admin/santri-detail_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 20:11:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* IS NULL' at line 4 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 20:11:47 --> Invalid file: admin/santri-detail_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri-detail_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri-detail_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(219): view('admin/santri-detail_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->detailSiswa('MTs', '30')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:15:36 --> Router.invalidParameterType
+in SYSTEMPATH/Router/RouteCollection.php on line 1144.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH/Router/RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('santri/pengaturan-akun/([0-9]+)', [])
+ 3 SYSTEMPATH/Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('pengaturan-akun')
+ 4 SYSTEMPATH/Helpers/url_helper.php(536): route_to('pengaturan-akun')
+ 5 APPPATH/Views/santri/layouts/index.php(60): url_to('pengaturan-akun')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/layouts/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+10 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:16:47 --> Router.invalidParameterType
+in SYSTEMPATH/Router/RouteCollection.php on line 1144.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH/Router/RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('santri/pengaturan-akun/([0-9]+)', [])
+ 3 SYSTEMPATH/Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('pengaturan-akun')
+ 4 SYSTEMPATH/Helpers/url_helper.php(536): route_to('pengaturan-akun')
+ 5 APPPATH/Views/santri/layouts/index.php(60): url_to('pengaturan-akun')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/layouts/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+10 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:33:27 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/layouts/index.php on line 60.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+ 5 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:34:00 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/layouts/index.php on line 60.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+ 5 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:34:23 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/layouts/index.php on line 60.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+ 5 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:34:39 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/layouts/index.php on line 60.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+ 5 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:40:19 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/layouts/index.php on line 60.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+ 5 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:41:33 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/layouts/index.php on line 60.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+ 5 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:49:18 --> Class 'App\Models\santriModel' not found
+in APPPATH/Controllers/Santri/SettingController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Santri\SettingController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:53:59 --> Router.invalidParameterType
+in SYSTEMPATH/Router/RouteCollection.php on line 1144.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1144): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH/Router/RouteCollection.php(1010): CodeIgniter\Router\RouteCollection->fillRouteParams('santri/pengaturan-akun/([^/]+)', [])
+ 3 SYSTEMPATH/Common.php(911): CodeIgniter\Router\RouteCollection->reverseRoute('pengaturan-akun')
+ 4 SYSTEMPATH/Helpers/url_helper.php(536): route_to('pengaturan-akun')
+ 5 APPPATH/Views/santri/layouts/index.php(60): url_to('pengaturan-akun')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/layouts/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+10 APPPATH/Controllers/Santri/DashboardController.php(60): view('santri/pages/dashboard', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:57:35 --> Call to undefined method App\Models\SantriModel::getSantri
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Santri/SettingController.php(45): CodeIgniter\Model->__call('getSantri', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('112233')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:06:53 --> Call to undefined method App\Models\SantriModel::getSantri
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Santri/SettingController.php(45): CodeIgniter\Model->__call('getSantri', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:07:23 --> Call to undefined method App\Models\SantriModel::index
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Santri/SettingController.php(45): CodeIgniter\Model->__call('index', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:48:09 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/pages/setting.php on line 77.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 4 APPPATH/Controllers/Santri/SettingController.php(69): view('santri/pages/setting', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:48:37 --> syntax error, unexpected '?>', expecting ')'
+in APPPATH/Views/santri/pages/setting.php on line 77.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 3 APPPATH/Controllers/Santri/SettingController.php(69): view('santri/pages/setting', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:48:39 --> syntax error, unexpected '?>', expecting ')'
+in APPPATH/Views/santri/pages/setting.php on line 77.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 3 APPPATH/Controllers/Santri/SettingController.php(69): view('santri/pages/setting', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:48:50 --> Cannot use object of type stdClass as array
+in APPPATH/Views/santri/pages/setting.php on line 92.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 4 APPPATH/Controllers/Santri/SettingController.php(69): view('santri/pages/setting', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:49:50 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(69): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:50:28 --> Call to a member function table() on null
+in APPPATH/Controllers/Santri/SettingController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('21')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:51:27 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(71): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:53:01 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(70): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:53:34 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(70): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:54:58 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(70): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:56:35 --> Invalid argument supplied for foreach()
+in APPPATH/Views/santri/pages/setting.php on line 135.
+ 1 APPPATH/Views/santri/pages/setting.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/santri/pages/setting.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/santri/pages/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/setting', [], true)
+ 5 APPPATH/Controllers/Santri/SettingController.php(70): view('santri/pages/setting', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\SettingController->index('17')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

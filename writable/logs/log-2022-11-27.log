@@ -1,0 +1,622 @@
+CRITICAL - 2022-11-27 11:55:02 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/santri/layouts/index.php on line 62.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('santri/layouts/index', [], true)
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('santri/pages/dashboard', [], true)
+ 5 APPPATH/Controllers/Santri/DashboardController.php(50): view('santri/pages/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 11:58:15 --> Class 'App\ThirdParty\FPDF' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:12:22 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(513): App\ThirdParty\FPDF->Error('Undefined font: lato B')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(66): App\ThirdParty\FPDF->SetFont('lato', 'B', 11)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:18:35 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(513): App\ThirdParty\FPDF->Error('Undefined font: lato B')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(66): App\ThirdParty\FPDF->SetFont('lato', 'B', 11)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:18:36 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(513): App\ThirdParty\FPDF->Error('Undefined font: lato B')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(66): App\ThirdParty\FPDF->SetFont('lato', 'B', 11)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:19:04 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(513): App\ThirdParty\FPDF->Error('Undefined font: lato B')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(67): App\ThirdParty\FPDF->SetFont('lato', 'B', 11)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:19:34 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(513): App\ThirdParty\FPDF->Error('Undefined font: lato B')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(68): App\ThirdParty\FPDF->SetFont('lato', 'B', 11)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:19:35 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(513): App\ThirdParty\FPDF->Error('Undefined font: lato B')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(68): App\ThirdParty\FPDF->SetFont('lato', 'B', 11)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:20:44 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(513): App\ThirdParty\FPDF->Error('Undefined font: lato B')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(68): App\ThirdParty\FPDF->SetFont('lato', 'B', 11)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:21:19 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(630): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(68): App\ThirdParty\FPDF->Cell(169.99905555555551472934894263744354248046875, 6, 'PENERIMAAN SANTRI BARU 2019/2020', 0, 0)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:21:20 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(630): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(68): App\ThirdParty\FPDF->Cell(169.99905555555551472934894263744354248046875, 6, 'PENERIMAAN SANTRI BARU 2019/2020', 0, 0)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:21:45 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(630): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(65): App\ThirdParty\FPDF->Cell(180.000305555555513592480565421283245086669921875, 6, 'PENERIMAAN SANTRI BARU 2019/2020', 0, 0)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:21:46 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(630): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(65): App\ThirdParty\FPDF->Cell(180.000305555555513592480565421283245086669921875, 6, 'PENERIMAAN SANTRI BARU 2019/2020', 0, 0)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:49:19 --> Call to a member function view() on null
+in APPPATH/Controllers/Santri/DashboardController.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:54:25 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php on line 62 and at least 1 expected
+in SYSTEMPATH/View/View.php on line 140.
+ 1 APPPATH/Controllers/Santri/DashboardController.php(62): CodeIgniter\View\View->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:54:53 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php on line 62 and at least 1 expected
+in SYSTEMPATH/View/View.php on line 140.
+ 1 APPPATH/Controllers/Santri/DashboardController.php(62): CodeIgniter\View\View->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 12:54:54 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php on line 62 and at least 1 expected
+in SYSTEMPATH/View/View.php on line 140.
+ 1 APPPATH/Controllers/Santri/DashboardController.php(62): CodeIgniter\View\View->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:01:40 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in /home/sunanpan/public_html/newpsb/app/Controllers/Santri/DashboardController.php on line 62 and at least 1 expected
+in SYSTEMPATH/View/View.php on line 140.
+ 1 APPPATH/Controllers/Santri/DashboardController.php(62): CodeIgniter\View\View->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:14:22 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(630): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(64): App\ThirdParty\FPDF->Cell(40, 10, 'Penerimaan Santri Baru 2023/2024')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:16:03 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(564): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(64): App\ThirdParty\FPDF->Text(30, 10, 'Penerimaan Santri Baru 2023/2024')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:16:04 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(564): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(64): App\ThirdParty\FPDF->Text(30, 10, 'Penerimaan Santri Baru 2023/2024')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:16:19 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(564): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(64): App\ThirdParty\FPDF->Text(30, 10, 'Penerimaan Santri Baru 2023/2024')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:16:21 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(564): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(64): App\ThirdParty\FPDF->Text(30, 10, 'Penerimaan Santri Baru 2023/2024')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:17:50 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(630): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(65): App\ThirdParty\FPDF->Cell(40, 10, 'Penerimaan Santri Baru 2023/2024', 1)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:18:01 --> Class 'App\ThirdParty\Exception' not found
+in APPPATH/ThirdParty/FPDF.php on line 274.
+ 1 APPPATH/ThirdParty/FPDF.php(630): App\ThirdParty\FPDF->Error('No font has been set')
+ 2 APPPATH/Controllers/Santri/DashboardController.php(65): App\ThirdParty\FPDF->Cell(40, 10, 'Penerimaan Santri Baru 2023/2024', 1)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:31:52 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:33:19 --> Class 'Dompdf\Dompdf\src\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:36:55 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:36:56 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:49:21 --> Class 'Vendor\Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:52:38 --> Class 'Vendor\Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:52:53 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:54:44 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:54:45 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:54:46 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:54:47 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 13:56:23 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/Santri/vendor/dompdf/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 13:58:25 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/vendor/dompdf/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 13:58:30 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/vendor/dompdf/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 13:58:31 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/vendor/dompdf/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 13:58:31 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/vendor/dompdf/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 13:58:32 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/vendor/dompdf/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 13:58:51 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers../vendor/dompdf/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 14:00:04 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 14:03:38 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 14:03:39 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 14:03:40 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/sunanpan/public_html/newpsb/app/Controllers/dompdf/src/autoloader.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+in APPPATH/Controllers/Santri/DashboardController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-27 14:03:51 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:03:52 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:03:53 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:03:53 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:03:53 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:04:54 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:04:55 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:04:56 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 14:08:03 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Santri/DashboardController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Santri\DashboardController->cetakKartu('112233')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Santri\DashboardController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-27 14:18:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `step` = :step:' at line 3 in /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/sunanpan/public_html/newpsb/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sunanpan/public_html/newpsb/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sunanpan/public_html/newpsb/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sunanpan/public_html/newpsb/app/Controllers/Admin/SantriController.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+#6 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+#7 /home/sunanpan/public_html/newpsb/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sunanpan/public_html/newpsb/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-27 14:18:48 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/SantriController.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->validasi('MTs')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 18:05:45 --> Call to undefined function logged_in()
+in APPPATH/Views/home/includes/navbar_include.php on line 17.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('home/includes/navbar_include', null, true)
+ 4 APPPATH/Views/home/layouts/home_layout.php(47): CodeIgniter\View\View->include('home/includes/navbar_include')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/layouts/home_layout.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('home/layouts/home_layout', [], true)
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('home/pages/coming_pages', [], true)
+ 9 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(128): view('home/pages/coming_pages')
+10 SYSTEMPATH/CodeIgniter.php(927): Myth\Auth\Controllers\AuthController->register()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:56:52 --> Invalid file: admin/jadwal_tes.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/jadwal_tes.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_tes', [], true)
+ 3 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_tes', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:57:12 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:58:08 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:58:18 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:59:14 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:59:15 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:59:16 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:59:16 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:59:17 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 113.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(110): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:01:04 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:01:05 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:01:06 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:02:08 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:02:08 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:02:08 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:02:08 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:02:08 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:02:33 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:03:38 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:03:39 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/jadwal_ujian.php on line 115.
+ 1 APPPATH/Views/admin/jadwal_ujian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/jadwal_ujian.php', 115, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/jadwal_ujian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/jadwal_ujian', [], true)
+ 5 APPPATH/Controllers/Admin/SettingController.php(112): view('admin/jadwal_ujian', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SettingController->jadwalujian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SettingController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:30:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH/Controllers/FormPrestasiController.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->prestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 20:30:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH/Controllers/FormPrestasiController.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FormPrestasiController->prestasi()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormPrestasiController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 22:49:04 --> Invalid file: admin/santri/tahaptes_MTs.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/santri/tahaptes_MTs.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/santri/tahaptes_MTs', [], true)
+ 3 APPPATH/Controllers/Admin/SantriController.php(50): view('admin/santri/tahaptes_MTs', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\SantriController->tahaptes('MTs')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SantriController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

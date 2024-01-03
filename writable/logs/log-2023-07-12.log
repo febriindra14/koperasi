@@ -1,0 +1,327 @@
+ERROR - 2023-07-12 15:16:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:16:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:16:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:16:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:16:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:16:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:17:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:17:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:17:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:17:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:18:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:18:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:18:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:18:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:18:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:18:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:18:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'appkoperasi', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:18:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:19:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user '	u1577338_bhumi'@'localhost' (using password: YES) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', '\tu1577338_bhumi', 'appKoperasi123@', 'u1577338_kopera...', 3306, '', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.articl...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-12 15:19:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/DetailBerita.php(11): CodeIgniter\Database\BaseConnection->query('SELECT p.article,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE k.category_name = \'VISI\'')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\DetailBerita->news()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DetailBerita))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 15:51:55 --> mysqli_sql_exception: Unknown column 'flug' in 'where clause' in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/BeritaController.php(28): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->createBerita()
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-12 15:51:55 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Admin/BeritaController.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->createBerita()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,11 @@
+CRITICAL - 2023-07-14 09:20:28 --> Invalid argument supplied for foreach()
+in APPPATH/Views/visi_misi.php on line 110.
+ 1 APPPATH/Views/visi_misi.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/visi_misi.php', 110, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/visi_misi.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('visi_misi', [], true)
+ 5 APPPATH/Controllers/Admin/BeritaController.php(45): view('visi_misi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->detailBerita('63')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

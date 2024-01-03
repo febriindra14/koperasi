@@ -1,0 +1,48 @@
+ERROR - 2023-09-14 21:48:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u1577338_bhumi'@'localhost' (using password: YES) in /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'u1577338_bhumi', 'appKoperasi123@', 'u1577338_kopera...', 3306, '', 0)
+#1 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/app/Controllers/Admin/BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT p.*,k.ca...')
+#4 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+#5 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#6 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/app/Controllers/Admin/BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT p.*,k.ca...')
+#3 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+#4 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#5 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-14 21:48:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Admin/BeritaController.php(12): CodeIgniter\Database\BaseConnection->query('SELECT p.*,k.category_name  FROM posts p JOIN categories k ON p.id_category = k.id_category WHERE p.id_posts = 41 ')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-14 22:05:32 --> mysqli_sql_exception: Unknown column 'p.category_name' in 'where clause' in /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT p.*,k.ca...', 0)
+#1 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*,k.ca...')
+#2 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*,k.ca...')
+#3 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/app/Controllers/Admin/BeritaController.php(15): CodeIgniter\Database\BaseConnection->query('SELECT p.*,k.ca...')
+#4 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+#5 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#6 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/bhuh2976/public_html/primkoppolwonosobo.bhumiakasa.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-14 22:05:32 --> Call to a member function getFirstRow() on bool
+in APPPATH/Controllers/Admin/BeritaController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

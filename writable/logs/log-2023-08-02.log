@@ -1,0 +1,88 @@
+ERROR - 2023-08-02 09:37:28 --> mysqli_sql_exception: Duplicate entry '42' for key 'PRIMARY' in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `posts` ...', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `posts` ...')
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `posts` ...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `posts` ...', Array, false)
+#4 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/BeritaController.php(200): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->updateVisiMisi()
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#7 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-02 10:21:50 --> Cannot use object of type stdClass as array
+in APPPATH/Views/admin/halaman_depan.php on line 223.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/halaman_depan', [], true)
+ 4 APPPATH/Controllers/Admin/BeritaController.php(36): view('admin/halaman_depan', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->viewBerita()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-02 11:50:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:id_posts` = 69:' at line 3 in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/BeritaController.php(181): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->editVisiMisi('69')
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#7 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-02 11:50:08 --> Call to a member function getRow() on bool
+in APPPATH/Controllers/Admin/BeritaController.php on line 181.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->editVisiMisi('69')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-02 12:19:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '43 = :43:
+WHERE `title` = :title:
+AND `id_category` = :id_category:
+AND `exce...' at line 1 in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `posts` ...', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `posts` ...')
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `posts` ...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `posts` ...', Array, false)
+#4 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/BeritaController.php(198): CodeIgniter\Database\BaseBuilder->update('43', Array)
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->updateVisiMisi()
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#7 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-02 12:19:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '69 = :69:
+WHERE `title` = :title:
+AND `id_category` = :id_category:
+AND `exce...' at line 1 in /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `posts` ...', 0)
+#1 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `posts` ...')
+#2 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `posts` ...')
+#3 /home/u1577338/public_html/koperasi.marierapp.com/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `posts` ...', Array, false)
+#4 /home/u1577338/public_html/koperasi.marierapp.com/app/Controllers/Admin/BeritaController.php(198): CodeIgniter\Database\BaseBuilder->update('69', Array)
+#5 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->updateVisiMisi()
+#6 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+#7 /home/u1577338/public_html/koperasi.marierapp.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1577338/public_html/koperasi.marierapp.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-02 12:27:31 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 335.
+ 1 SYSTEMPATH/Database/Query.php(335): strtr('SELECT *
+FROM `posts`
+WHERE `id_posts` = :id_posts:', [...])
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `posts`
+WHERE `id_posts` = :id_posts:', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `id_posts` = :id_posts:', [...], false)
+ 6 APPPATH/Controllers/Admin/BeritaController.php(183): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\BeritaController->editVisiMisi('41')
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BeritaController))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
